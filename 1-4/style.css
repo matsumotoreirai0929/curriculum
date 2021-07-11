@@ -26,7 +26,7 @@ header {
   height: 150px;
   background-color: #ff9e6b;
   width: 100px;
-  float: left;
+  float: right;
 }
 .blue {
   width: 150px;
@@ -47,43 +47,6 @@ footer {
   float:left;
 }
 .float {
-  float: left;
+  float: right;
 }
 
-@media screen and (max-width: 767px) {
-  header {
-    width: 300px;
-  }
-  #green {
-    width: 100px;
-  }
-  #yellow {
-    width: 125px;
-  }
-  #blue {
-    width: 125px;
-  }
-  #pink {
-    width: 75px;
-  }
-  #red {
-    width: 200px;
-  }
-  footer {
-    width: 300px;
-  }
-
-}
-
-@media screen and (max-width: 479px) {
-  header {
-    width: 150px;
-  }
-  div {
-    width: 150px;
-    float: none;
-  }
-  footer {
-    width: 150px;
-  }
-}
